@@ -11,8 +11,5 @@
         "mearm.ts",
         "pxt.json"
     ],
-    "testFiles": [
-        "tests.ts"
-    ],
     "public": true
 }
