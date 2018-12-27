@@ -133,9 +133,9 @@ namespace mearm2 {
 
     return percentage;
   }
-}
+
   
 export function ServoAngle(servo: MearmServo): number {
 	return servos[servo].currentAngle 
 }
- 
+}
