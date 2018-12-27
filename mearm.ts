@@ -135,6 +135,6 @@ namespace mearm2 {
   }
 
   export function ServoAngle(servo: MearmServo): number {
-    return servos[servo].currentAngle 
+    return servos[servo].currentAngle; 
   }
 }
