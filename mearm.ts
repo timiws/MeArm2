@@ -133,7 +133,9 @@ namespace mearm2 {
 
     return percentage;
   }
-
+  
+  //% weight=30
+  //% blockId=servo_angle block="%servoangle=servo|MearmServo"
   export function ServoAngle(servo: MearmServo): number {
     return servos[servo].currentAngle; 
   }
