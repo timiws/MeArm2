@@ -8,37 +8,37 @@ Blocks that support the micro:bit connector board for the MeArm. The board has t
 * **moveToAngle** - Moves the specified servo to an absolute angle
 
 ```
-  mearm.moveToAngle(MearmServo.Base, 90);
+  mearm2.moveToAngle(MearmServo.Base, 90);
 ```
 
 * **moveByAngle** - Moves the specified servo by a number of degrees (can be positive or negative)
 
 ```
-  mearm.moveByAngle(MearmServo.Base, -5);
+  mearm2.moveByAngle(MearmServo.Base, -5);
 ```
 
 * **openGrip** - Opens the grip
 
 ```
-  mearm.openGrip();
+  mearm2.openGrip();
 ```
 
 * **closeGrip** - Closes the grip
 
 ```
-  mearm.closeGrip();
+  mearm2.closeGrip();
 ```
 
 * **joystick** - Reads the specified joystick and returns a value between -512 and 512, with 0 being the joystick at rest
 
 ```
-  mearm.joystick(Joystick.LeftHorizontal);
+  mearm2.joystick(Joystick.LeftHorizontal);
 ```
 
 * **ServoAngle** - Reads the specified servo angle
 
 ```
-  mearm.ServoAngle(MearmServo.Base);
+  mearm2.ServoAngle(MearmServo.Base);
 ```
 
 ### Servo identifiers
