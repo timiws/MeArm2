@@ -35,6 +35,12 @@ Blocks that support the micro:bit connector board for the MeArm. The board has t
   mearm.joystick(Joystick.LeftHorizontal);
 ```
 
+* **ServoAngle** - Reads the specified servo angle
+
+```
+  mearm.ServoAngle(MearmServo.Base);
+```
+
 ### Servo identifiers
 
  * **MearmServo.Base** - the base servo
