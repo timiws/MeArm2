@@ -59,5 +59,5 @@ MIT
  * for PXT/microbit
 
 ```package
-mearm-microbit=github:mimeindustries/pxt-microbit-mearm
+mearm2-microbit=github:timiws/MeArm2
 ```
