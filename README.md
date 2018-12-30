@@ -11,6 +11,12 @@ Blocks that support the micro:bit connector board for the MeArm. The board has t
   mearm2.moveToAngle(MearmServo.Base, 90);
 ```
 
+* **moveToAngleSpeed** - Moves the specified servo to an absolute angle with specified speed (0=fast, 1000=slow)
+
+```
+  mearm2.moveToAngleSpeed(MearmServo.Base, 90, 10);
+```
+
 * **moveByAngle** - Moves the specified servo by a number of degrees (can be positive or negative)
 
 ```
