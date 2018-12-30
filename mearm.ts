@@ -139,4 +139,21 @@ namespace mearm2 {
   export function ServoAngle(servo: MearmServo): number {
     return servos[servo].currentAngle; 
   }
+  
+  //% weight=91
+  //% blockId=move_to_speed block="move|%servo=MearmServo|to|%angle|degrees with speed|%speed"  
+  export function moveToAngleSpeed(servo: MearmServo, angle: number, speed: number) {
+
+    if (mearm2.ServoAngle(servo) < angle) {
+        for (let i = mearm2.ServoAngle(servo); i < angle; i++) {
+            basic.pause(speed)
+            mearm2.moveByAngle(servo, 1)
+        }
+    } else {
+        for (let i = mearm2.ServoAngle(servo); i > angle; i--) {
+            basic.pause(speed)
+            mearm2.moveByAngle(servo, -1)
+        }
+    }
+}  
 }
